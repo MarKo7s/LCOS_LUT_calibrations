@@ -1,0 +1,4 @@
+# Python 3.11. Prefer: conda env create -f environment.yml
+# Legacy mirror of GitHub tag pins for slm / cameras.
+slm[notebooks] @ git+https://github.com/MarKo7s/slm.git@v0.1.0
+cameras[gui,notebooks] @ git+https://github.com/MarKo7s/cameras.git@v0.2.0

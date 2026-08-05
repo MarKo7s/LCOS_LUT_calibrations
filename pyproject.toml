@@ -1,0 +1,21 @@
+[project]
+name = "meadowlark_lut"
+version = "0.1.0"
+description = "Meadowlark SLM LUT calibration workflows (ModeLab)"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "slm[notebooks] @ git+https://github.com/MarKo7s/slm.git@v0.1.0",
+  "cameras[gui,notebooks] @ git+https://github.com/MarKo7s/cameras.git@v0.2.0",
+]
+
+[project.urls]
+Repository = "https://github.com/MarKo7s/meadowlark-lut"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"meadowlark_lut" = "."}
+packages = ["meadowlark_lut"]
