@@ -10,4 +10,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 - ModeLab pip/git-tag packaging (`pyproject.toml`, `CHANGELOG.md`, `scripts/release.py`).
 - Conda environment `meadowlarkCalLUT` (`environment.yml`) with numpy, scipy, matplotlib.
-- Pinned hardware deps: `slm[notebooks]@v0.1.0`, `cameras[gui,notebooks]@v0.2.0`.
+- Pinned hardware deps: `slm[notebooks]@v0.1.0`, `cameras[gui,notebooks]@v0.2.1`.

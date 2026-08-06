@@ -6,7 +6,7 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
   "slm[notebooks] @ git+https://github.com/MarKo7s/slm.git@v0.1.0",
-  "cameras[gui,notebooks] @ git+https://github.com/MarKo7s/cameras.git@v0.2.0",
+  "cameras[gui,notebooks] @ git+https://github.com/MarKo7s/cameras.git@v0.2.1",
 ]
 
 [project.urls]

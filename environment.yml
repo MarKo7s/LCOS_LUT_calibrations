@@ -10,4 +10,4 @@ dependencies:
   - pip
   - pip:
       - "slm[notebooks] @ git+https://github.com/MarKo7s/slm.git@v0.1.0"
-      - "cameras[gui,notebooks] @ git+https://github.com/MarKo7s/cameras.git@v0.2.0"
+      - "cameras[gui,notebooks] @ git+https://github.com/MarKo7s/cameras.git@v0.2.1"

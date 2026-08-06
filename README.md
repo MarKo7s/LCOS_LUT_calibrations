@@ -18,7 +18,7 @@ conda activate meadowlarkCalLUT
 This creates **`meadowlarkCalLUT`** (Python 3.11) with numpy, scipy, matplotlib from conda, and installs:
 
 - `slm[notebooks] @ git+https://github.com/MarKo7s/slm.git@v0.1.0`
-- `cameras[gui,notebooks] @ git+https://github.com/MarKo7s/cameras.git@v0.2.0`
+- `cameras[gui,notebooks] @ git+https://github.com/MarKo7s/cameras.git@v0.2.1`
 
 Allied Vision Vimba X / `vmbpy` is host-side (see the [cameras](https://github.com/MarKo7s/cameras) README); it is not a pip extra.
 
