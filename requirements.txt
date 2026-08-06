@@ -1,4 +1,9 @@
 # Python 3.11. Prefer: conda env create -f environment.yml
-# Legacy mirror of GitHub tag pins for slm / cameras.
+# Conda provides python+pip only; all packages below are pip (avoids conda Qt vs PySide6).
+numpy
+scipy
+matplotlib
 slm[notebooks] @ git+https://github.com/MarKo7s/slm.git@v0.1.0
 cameras[gui,notebooks] @ git+https://github.com/MarKo7s/cameras.git@v0.2.1
+# Host SDK (after env create):
+# pip install "C:/Program Files/Allied Vision/Vimba X/api/python/vmbpy-1.2.1-py3-none-win_amd64.whl"

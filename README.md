@@ -15,12 +15,18 @@ conda env create -f environment.yml
 conda activate meadowlarkCalLUT
 ```
 
-This creates **`meadowlarkCalLUT`** (Python 3.11) with numpy, scipy, matplotlib from conda, and installs:
+**Protocol:** conda installs **Python + pip only**. Scientific packages and ModeLab hardware pins are installed with **pip** so PySide6 (from `slm` / `cameras`) does not clash with conda Qt DLLs.
+
+This creates **`meadowlarkCalLUT`** (Python 3.11) and pip-installs numpy, scipy, matplotlib plus:
 
 - `slm[notebooks] @ git+https://github.com/MarKo7s/slm.git@v0.1.0`
 - `cameras[gui,notebooks] @ git+https://github.com/MarKo7s/cameras.git@v0.2.1`
 
-Allied Vision Vimba X / `vmbpy` is host-side (see the [cameras](https://github.com/MarKo7s/cameras) README); it is not a pip extra.
+Allied Vision Vimba X / `vmbpy` is host-side (not a pip extra). After creating the env:
+
+```bash
+pip install "C:/Program Files/Allied Vision/Vimba X/api/python/vmbpy-1.2.1-py3-none-win_amd64.whl"
+```
 
 ### From GitHub (tagged release)
 

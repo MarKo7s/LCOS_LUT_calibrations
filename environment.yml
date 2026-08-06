@@ -1,13 +1,16 @@
 name: meadowlarkCalLUT
 channels:
   - defaults
-  - conda-forge
 dependencies:
+  # Conda: Python + pip only. Do NOT install numpy/scipy/matplotlib (or any Qt) via
+  # conda — they pull conda Qt DLLs that conflict with pip PySide6 from slm/cameras.
   - python=3.11
-  - numpy
-  - scipy
-  - matplotlib
   - pip
   - pip:
+      - numpy
+      - scipy
+      - matplotlib
       - "slm[notebooks] @ git+https://github.com/MarKo7s/slm.git@v0.1.0"
       - "cameras[gui,notebooks] @ git+https://github.com/MarKo7s/cameras.git@v0.2.1"
+# After create, install VmbPy from the local Vimba X wheel (not on PyPI), e.g.:
+#   pip install "C:/Program Files/Allied Vision/Vimba X/api/python/vmbpy-1.2.1-py3-none-win_amd64.whl"
