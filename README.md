@@ -86,12 +86,6 @@ Then $\phi=\mathrm{atan2}(\sin\phi,\,X)\in(-\pi,\pi]$. If the unwrapped sweep de
 
 When $\lvert\varepsilon\rvert\to 1$ (needle Lissajous) the $\sin\phi$ formula divides by a small number and `atan2` is noisy; the recovered $\phi(V)$ collapses to the single-channel cosine result. Open the ellipse optically ($\Lambda/4$ ROI offset, or a QWP) so $\lvert\varepsilon\rvert$ is small; then quadrature is the better estimator (all four quadrants, no $\arccos$ fold).
 
-### 3. Hilbert transform
-
-Notebook: `analysis/E01_get_LUT_cam_pol_interference_hilbert.ipynb` (placeholder).
-
-Not implemented yet. Intended path: analytic signal of a **single** cosine interferogram to synthesise a quadrature, then `atan2` + unwrap — no second ROI and no assumption of a spatial $\Lambda/4$.
-
 ---
 
 ## Installation
