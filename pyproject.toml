@@ -10,7 +10,7 @@ dependencies = [
 ]
 
 [project.urls]
-Repository = "https://github.com/MarKo7s/meadowlark-lut"
+Repository = "https://github.com/MarKo7s/LCOS_LUT_calibrations"
 
 [build-system]
 requires = ["setuptools>=68"]

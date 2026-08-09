@@ -2,7 +2,7 @@
 
 Calibration workflows for Meadowlark SLM look-up tables, pinned to ModeLab hardware packages (`slm`, `cameras`).
 
-Python package name: **`meadowlark_lut`** (GitHub: [MarKo7s/meadowlark-lut](https://github.com/MarKo7s/meadowlark-lut)).
+Python package name: **`meadowlark_lut`** (GitHub: [MarKo7s/LCOS_LUT_calibrations](https://github.com/MarKo7s/LCOS_LUT_calibrations)).
 
 ---
 
@@ -122,7 +122,7 @@ pip install "C:/Program Files/Allied Vision/Vimba X/api/python/vmbpy-1.2.1-py3-n
 After a release tag exists:
 
 ```bash
-pip install "meadowlark_lut @ git+https://github.com/MarKo7s/meadowlark-lut.git@v0.1.0"
+pip install "meadowlark_lut @ git+https://github.com/MarKo7s/LCOS_LUT_calibrations.git@v0.1.0"
 ```
 
 That install pulls the same pinned `slm` / `cameras` GitHub tags via `pyproject.toml` dependencies.
@@ -130,8 +130,8 @@ That install pulls the same pinned `slm` / `cameras` GitHub tags via `pyproject.
 ### Local development (editable install)
 
 ```bash
-git clone git@github.com:MarKo7s/meadowlark-lut.git
-cd meadowlark-lut
+git clone git@github.com:MarKo7s/LCOS_LUT_calibrations.git
+cd LCOS_LUT_calibrations
 conda activate meadowlarkCalLUT
 pip install -e .
 ```
@@ -171,7 +171,7 @@ The script reads the version from `pyproject.toml`, pushes `main`, creates annot
 Install a released tag:
 
 ```bash
-pip install "meadowlark_lut @ git+https://github.com/MarKo7s/meadowlark-lut.git@vX.Y.Z"
+pip install "meadowlark_lut @ git+https://github.com/MarKo7s/LCOS_LUT_calibrations.git@vX.Y.Z"
 ```
 
 Dry run:

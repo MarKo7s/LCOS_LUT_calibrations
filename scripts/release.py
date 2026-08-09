@@ -13,7 +13,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 PYPROJECT = REPO_ROOT / "pyproject.toml"
 CHANGELOG = REPO_ROOT / "CHANGELOG.md"
-REPOSITORY_URL = "https://github.com/MarKo7s/meadowlark-lut.git"
+REPOSITORY_URL = "https://github.com/MarKo7s/LCOS_LUT_calibrations.git"
 
 
 def read_version(pyproject_path: Path) -> str:
