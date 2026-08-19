@@ -236,7 +236,7 @@ def quadrature_detection(Ix, Iy, ax = None, debugging = True):
     phi_unw = unwrap(phi)   
     phi_v_Quad =  phi_unw - phi_unw[0]
 
-    return phi_v_Quad
+    return phi_v_Quad, eps
 
 
     
